@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/header"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:text="@string/GUI"
+        android:layout_alignParentTop="true">
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_toLeftOf="@id/strut"
+        android:text="@string/Click"
+        android:id="@+id/btn">
+    </Button>
+    <View
+        android:layout_below="@id/header"
+        android:id="@+id/strut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_toRightOf="@id/strut"
+        android:text="@string/Check"
+        android:gravity="fill"
+        android:layout_weight="1">
+    </CheckBox>
+
+    <ImageButton
+        android:id="@+id/imgBtn"
+        android:layout_below="@id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag"
+        android:gravity="fill"
+        android:layout_weight="1"
+        android:layout_toLeftOf="@id/strut2">
+
+    </ImageButton>
+    <View
+        android:layout_below="@id/btn"
+        android:id="@+id/strut2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"/>
+    <Switch
+        android:layout_below="@id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Switch"
+        android:layout_weight="1"
+        android:layout_toRightOf="@id/strut2"
+        android:gravity="fill"
+        android:id="@+id/sth"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Type"
+        android:layout_below="@id/imgBtn"
+        android:inputType="textPersonName">
+
+    </EditText>
+</RelativeLayout>

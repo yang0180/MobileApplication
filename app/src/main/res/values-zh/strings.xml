@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+    <string name="app_name">安卓试验</string>
+    <string name="GUI">看我的GUI</string>
+    <string name="Click">按这</string>
+    <string name="Check">选中!</string>
+    <string name="Switch">开关</string>
+    <string name="Type">输入</string>
+    <string name="information">有更多信息</string>
+    <string name="on">开关是开的状态</string>
+    <string name="off">开关是关的状态</string>
+    <string name="undo">撤销</string>
+    <string name="enterEmailHeader"> Enter your email address </string>
+    <string name="emailInputHint">Type your email here</string>
+    <string name="enterpasswordHeader">Type your password</string>
+    <string name="login">Log in</string>
+    <string name="your_profile">Your profile</string>
+    <string name="your_name">Your name</string>
+    <string name="your_email">Your email</string>
+    <string name="your_picture">Your picture</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="take_picture_hint">Click button above to take a picture</string>
+    <string name="send">SEND</string>
+    <string name="receive">RECEIVE</string>
+    </resources>
